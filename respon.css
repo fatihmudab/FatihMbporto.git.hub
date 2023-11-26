@@ -1,0 +1,201 @@
+@media screen and (max-width:680px) {
+    .burger-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        width: 80%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--bg-color);
+        z-index: -1;
+        transform: translateX(100%);
+    }
+
+    .navbar .slide {
+        transform: translateX(0);
+    }
+
+    @media (max-width:680px) {}
+        /* Header adjustments for smaller screens */
+        .head-1 {
+          padding: 1.5rem 5%;
+        }
+      
+        .navbar a {
+          margin-left: 2rem;
+          font-size: 1.4rem;
+        }
+      
+        /* Adjustments for the about section */
+        .about {
+           flex-wrap: wrap;
+           flex-direction: column;
+          }
+
+          .fatih {
+            flex-direction: column;
+            align-items: center;
+            margin-left: 300px;
+            margin-top: 50px;
+          }
+        
+          .about img {
+            aspect-ratio: 4/2;
+            object-fit: cover;
+            justify-content: center;
+
+          }
+
+          .about-text {
+            text-wrap: balance;
+            text-align: center;
+            margin-right: 20px;
+          }
+
+          .fatih h1 {
+            font-size: 40px;
+            margin-right: 50px;
+          }
+
+          .fatih p {
+            text-align: center;
+            margin-right: 300px;
+            width: 500px;
+          }
+
+          .fatih h5 {
+            font-size: 30px;
+            text-align: center;
+            margin-right: 50px;
+          }
+    
+        
+        /* Adjustments for timeline section */
+      
+            .main-1 h1 {
+              font-size: 60px; 
+              margin-left: 225px; 
+              margin-top: 50px;
+              text-align: center; 
+            }
+          
+            .container-tm {
+              display: flex;
+              flex-direction: column; 
+              padding-right: 0; 
+              grid-template-columns: none; 
+              grid-column-gap: 0;
+            }
+          
+            .grup {
+              flex-direction: column;
+              align-items: center; 
+
+            }
+
+            .grup header {
+              padding: 20px 0; 
+              text-align: center; 
+            }
+          
+            .content {
+              padding-left: ; 
+              margin-right: 0;
+            }
+          
+            .grup .content .box {
+              width: 100%;
+              margin-bottom: 20px; 
+            }
+          
+            .box-rgt {
+              margin-left: 0; 
+              justify-content: center; 
+            }
+          
+            .box h3 {
+              font-size: 20px; 
+              text-align: center;
+            }
+          
+            .box p {
+              font-size: 14px;
+              text-align: center;
+            }
+            
+            
+            
+            
+        
+        /* Adjustments for project section */
+
+        .project h1 {
+          font-size: 4rem;
+          text-align: center;
+        }
+      
+        .grup-pj {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .pj-1 img,
+        .pj-2 img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .grup-pj h3 {
+            font-size: 2.5rem;
+        }
+      
+        .grup-pj p {
+          font-size: 1.6rem;
+          width: 100%;
+          text-align: center;
+        }
+      
+        .grup-pj a {
+          font-size: 1.8rem;
+        }
+      
+        /* Adjustments for contact section */
+        .Contact {
+          padding: 5rem 0;
+          align-items: center;
+          justify-content: center;
+
+        }
+      
+        .p-ct {
+          font-size: 3.5rem;
+          text-align: center;
+        }
+        
+        .container-c {
+          flex-direction: column;
+          align-items: center;
+          margin-left: 80px;
+          margin-top: 50px;
+          padding: 2rem;
+        }
+      
+        .container-c .contact .left-side {
+          width: 100%;
+          margin-bottom: 2rem;
+          text-align: center;
+        }
+      
+        .container-c .contact .right-side {
+          width: 100%;
+          margin-left: 0;
+        }
+    }
+      
