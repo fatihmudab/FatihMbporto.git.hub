@@ -52,9 +52,7 @@
     <!-- ===================ABOUT========================== -->
 
     <section class="about" id="About">
-        <div class="fatih" data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
+        <div class="fatih">
             <img src="./img/kuning.jpg" alt="">
              <div class="about-text">
                 <h1>About <span>Me</span></h1>
@@ -90,13 +88,13 @@
             <div class="container-tm" >
                 <div class="grup">
                     <div class="box-lft">
-                        <header class="judul"  data-aos="flip-left"
+                        <header class="judul"  
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
                             <h2> <span style="color:#323946;">My </span>Skill</h2>
                         </header>
 
-                        <div class="content"data-aos="flip-left"
+                        <div class="content"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000">
                             <div class="box">
@@ -161,31 +159,53 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-btm"><path fill="aliceblue"  fill-opacity="1" d="M0,160L20,149.3C40,139,80,117,120,112C160,107,200,117,240,122.7C280,128,320,128,360,112C400,96,440,64,480,64C520,64,560,96,600,133.3C640,171,680,213,720,208C760,203,800,149,840,122.7C880,96,920,96,960,85.3C1000,75,1040,53,1080,74.7C1120,96,1160,160,1200,165.3C1240,171,1280,117,1320,106.7C1360,96,1400,128,1420,144L1440,160L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path></svg>
         
 
-       <section class="project" id="project">
+        <section class="project" id="project">
             <h1 data-aos="fade-up">Latets <span>project</span></h1>
-            <div class="grup-pj"  data-aos="flip-up">
-                <div class="pj-1">
-                    <img src="./img/proje.png" alt="" class="img">
-                    <h3>Project</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <a href="">More</a>
-                    <a href="">Tailwind</a>
-                    
-                </div>
-            
+            <div class="grup-pj">
+                <div class="row" data-aos="flip-left">
+                    <div class="pj-1">
+                        <img src="./img/proje.png" alt="" class="img">
+                        <h3>Project</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="">More</a>
+                        <a href="">Tailwind</a>
+                    </div>
 
-                <div class="pj-2">
-                    <img src="https://png.pngtree.com/png-clipart/20211024/original/pngtree-coming-soon-banner-design-with-speaker-png-image_6869715.png" alt="" class="img">
-                    <h3>Web Eccomerce</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <a href="">More</a>
-                    <a href="">Tailwind</a>
+                    <div class="pj-2">
+                        <img src="https://png.pngtree.com/png-clipart/20211024/original/pngtree-coming-soon-banner-design-with-speaker-png-image_6869715.png" alt="" class="img">
+                        <h3>Web Ecommerce</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="">More</a>
+                        <a href="">Tailwind</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Card Baru 1 -->
+                    <div class="pj-1">
+                        <img src="\img/Screenshot 2024-10-19 100528.png" alt="" class="img">
+                        <h3>Kasir Online</h3>
+                        <p>Membuat Kasir Online ( CRUD ) Menggunakan Laravel</p>
+                        <a href="">More</a>
+                        <a href="">Flutter</a>
+                    </div>
+
+                    <!-- Card Baru 2 -->
+                    <div class="pj-2">
+                        <img src="/img/Screenshot 2024-12-02 095203.png" alt="" class="img">
+                        <h3>Perpustakaanp</h3>
+                        <p>Membuat Perpus Menggunakan DJANGO ( CRUD )</p>
+                        <a href="">More</a>
+                        <a href="">Electron</a>
+                    </div>
                 </div>
             </div>
        </section>
 
+       <button id="back-to-top" style="display: none;">⬆af;kdjfk;akjfdaskf</button>
+
        <section class="Contact" id="contact">
-            <h1 class="p-ct" data-aos="fade-down-right"><span>Contact</span> Me</h1>
+            <h1 class="p-ct" ><span>Contact</span> Me</h1>
             <div class="container-c">
                 <div class="contact">
                     <div class="Left-side">
@@ -237,7 +257,7 @@
           <p>Thanks for visit my personal website</p>
           <h1>Fatih Muda Bangsawan</h1>
           <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#index.html">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -248,7 +268,7 @@
     
     </html>
 
-    <script src="./js/home.js"></script>
+    <script src="./js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
